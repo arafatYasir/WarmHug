@@ -9,7 +9,7 @@ const Navbar = () => {
         <li className="hover:text-[#6B8E23]"><NavLink to="/dashboard">Dashboard</NavLink></li>
     </>
     return (
-        <div className="navbar">
+        <nav className="navbar">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +33,7 @@ const Navbar = () => {
             <div className="navbar-end">
                 <a className="btn">Login</a>
             </div>
-        </div>
+        </nav>
     );
 };
 

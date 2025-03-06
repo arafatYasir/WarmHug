@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const Home = () => {
@@ -6,6 +7,8 @@ const Home = () => {
             <header>
                 <Navbar />
             </header>
+
+            <Footer />
         </div>
     );
 };
