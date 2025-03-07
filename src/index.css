@@ -3,10 +3,14 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+body {
+    background: #DDDDDD;
+}
+
 .font-poppins {
     font-family: "Poppins", sans-serif;
 }
 
 a.active {
-    color: #FF8C42;
+    color: #93C5FD;
 }

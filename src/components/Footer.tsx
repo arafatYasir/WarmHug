@@ -34,13 +34,13 @@ const Footer = () => {
                     <h6 className="text-[16px] font-semibold tracking-wider">Social Media Links</h6>
 
                     <div className="flex items-center gap-5">
-                        <a href="https://facebook.com/" target="_blank" className="link link-hover hover:text-primary transition">
+                        <a href="https://facebook.com/" target="_blank" className="link link-hover hover:text-[#1E3A8A] transition">
                             <FaFacebook size={20} />
                         </a>
-                        <a href="https://youtube.com/" target="_blank" className="link link-hover hover:text-primary transition">
+                        <a href="https://youtube.com/" target="_blank" className="link link-hover hover:text-[#1E3A8A] transition">
                             <FaYoutube size={20} />
                         </a>
-                        <a href="https://x.com/" target="_blank" className="link link-hover hover:text-primary transition">
+                        <a href="https://x.com/" target="_blank" className="link link-hover hover:text-[#1E3A8A] transition">
                             <FaX size={20} />
                         </a>
                     </div>
