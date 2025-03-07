@@ -14,7 +14,7 @@ const Banner = () => {
 
                 <div className="absolute z-50 flex flex-col items-center justify-center inset-0 text-white bg-black opacity-80">
                     <h2 className="text-xl md:text-3xl font-bold mb-2">WarmHug in Rajshahi</h2>
-                    <p className="md:text-lg max-w-72 text-center">Bringing warmth to those in need this winter. Join us in making a difference!</p>
+                    <p className="md:text-lg max-w-72 md:max-w-full text-center">Bringing warmth to those in need this winter. Join us in making a difference!</p>
                     <Link to="/campaigns" className="mt-4 px-6 py-3 bg-[#60A5FA] text-white font-semibold rounded-lg hover:bg-[#2563EB] transition">
                         Donate Now
                     </Link>
@@ -33,7 +33,7 @@ const Banner = () => {
 
                 <div className="absolute z-50 flex flex-col items-center justify-center inset-0 bg-black opacity-80 text-white">
                     <h2 className="text-xl md:text-3xl font-bold mb-2">WarmHug in Khulna</h2>
-                    <p className="md:text-lg max-w-72 text-center">Bringing warmth to those in need this winter. Join us in making a difference!</p>
+                    <p className="md:text-lg max-w-72 md:max-w-full text-center">Bringing warmth to those in need this winter. Join us in making a difference!</p>
                     <Link to="/campaigns" className="mt-4 px-6 py-3 bg-[#60A5FA] text-white font-semibold rounded-lg hover:bg-[#2563EB] transition">
                         Donate Now
                     </Link>
@@ -51,7 +51,7 @@ const Banner = () => {
 
                 <div className="absolute z-50 flex flex-col items-center justify-center inset-0 bg-black opacity-80 text-white">
                     <h2 className="text-xl md:text-3xl font-bold mb-2">WarmHug in Dhaka</h2>
-                    <p className="md:text-lg max-w-72 text-center">Bringing warmth to those in need this winter. Join us in making a difference!</p>
+                    <p className="md:text-lg max-w-72 md:max-w-full text-center">Bringing warmth to those in need this winter. Join us in making a difference!</p>
                     <Link to="/campaigns" className="mt-4 px-6 py-3 bg-[#60A5FA] text-white font-semibold rounded-lg hover:bg-[#2563EB] transition">
                         Donate Now
                     </Link>

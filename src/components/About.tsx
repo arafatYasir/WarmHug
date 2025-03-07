@@ -19,39 +19,30 @@ const About = () => {
 
                 <div className="grid md:grid-cols-3 gap-6 text-center">
                     {/* Donate */}
-                    <div className="p-6 bg-white text-blue-900 rounded-lg shadow-lg">
+                    <div className="p-6 bg-white text-blue-900 rounded-lg shadow-lg hover:shadow-2xl transition">
                         <FaTshirt className="text-5xl mx-auto mb-4" />
                         <h4 className="text-xl font-semibold">Donate</h4>
                         <p className="mt-2 text-gray-700">
-                            Contribute warm clothes, blankets, or funds to support those in need.
+                        Donate warm clothes, blankets, or funds to help those in need stay warm during winter.
                         </p>
-                        <button className="mt-4 bg-blue-600 hover:bg-blue-800 text-white py-2 px-4 rounded-lg">
-                            Donate Now
-                        </button>
                     </div>
 
                     {/* Volunteer */}
-                    <div className="p-6 bg-white text-blue-900 rounded-lg shadow-lg">
+                    <div className="p-6 bg-white text-blue-900 rounded-lg shadow-lg hover:shadow-2xl transition">
                         <FaUsers className="text-5xl mx-auto mb-4" />
                         <h4 className="text-xl font-semibold">Volunteer</h4>
                         <p className="mt-2 text-gray-700">
-                        Help us collect, sort, and distribute donations to communities
+                        Join us in collecting and distributing donations to ensure warmth reaches those who need it.
                         </p>
-                        <button className="mt-4 bg-blue-600 hover:bg-blue-800 text-white py-2 px-4 rounded-lg">
-                            Join Us
-                        </button>
                     </div>
 
                     {/* Spread the Word */}
-                    <div className="p-6 bg-white text-blue-900 rounded-lg shadow-lg">
+                    <div className="p-6 bg-white text-blue-900 rounded-lg shadow-lg hover:shadow-2xl transition">
                         <FaHandsHelping className="text-5xl mx-auto mb-4" />
                         <h4 className="text-xl font-semibold">Spread the Word</h4>
                         <p className="mt-2 text-gray-700">
-                            Share our mission with friends & family to expand our reach.
+                        Share our mission to raise awareness and encourage more donations and volunteers.
                         </p>
-                        <button className="mt-4 bg-blue-600 hover:bg-blue-800 text-white py-2 px-4 rounded-lg">
-                            Share Now
-                        </button>
                     </div>
                 </div>
             </div>
